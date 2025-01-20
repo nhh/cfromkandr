@@ -1,0 +1,2 @@
+void PrintFahrenheit();
+void PrintFahrenheitWithForLoop();

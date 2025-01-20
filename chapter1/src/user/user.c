@@ -6,6 +6,6 @@ void print_formatted_username(User u) {
 }
 
 void CreateUser(char name[255]) {
-  User u = {name};
+  User u = {*name};
   print_formatted_username(u);
 }
