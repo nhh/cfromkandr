@@ -3,6 +3,7 @@
 #include "src/fahrenheit/fahrenheit.h"
 #include "src/comment/comment.h"
 #include "src/io/io.h"
+#include "src/module/module.h"
 
 int main() {
     PrintFahrenheit();
@@ -15,4 +16,7 @@ int main() {
     // 2. Information Hiding
     // 3. Encapsulation
     comment comment = comment_new("Niklas Hanft");
+
+    Module arrays = New(); // expect to print 2
+    arrays.Increment();
 }
